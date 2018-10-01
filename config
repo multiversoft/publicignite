@@ -38,6 +38,9 @@
                 </property>
             </bean>
         </property>
+        
+        <!-- Enabling authentication. -->
+        <property name="authenticationEnabled" value="true"/>
 
         <!-- Explicitly configure TCP discovery SPI to provide list of initial nodes. -->
         <property name="discoverySpi">
